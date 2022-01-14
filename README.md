@@ -34,7 +34,7 @@ Open http://localhost:3000 to view it in the browser. You will be asked to login
 - username: john
 - password: $ch00l 
 
-- **user--
+- **user**
 - username: julio
 - password: $ch00l
 
