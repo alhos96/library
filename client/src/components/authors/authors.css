@@ -1,0 +1,34 @@
+.Authors-wrapp,
+.View-author,
+.Add-author,
+.Edit-author {
+  height: auto;
+  width: 95%;
+  max-width: 1020px;
+  padding-top: 25px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.Add-author {
+  padding: 10px;
+}
+
+.pick-date-wrapp {
+  background-color: white;
+  position: relative;
+}
+
+.small-author-image,
+#uploaded-image {
+  object-fit: cover;
+}
+
+.calendar-icon {
+  right: 8px;
+}
+.pick-date-wrapp input {
+  border: none;
+  height: 35px;
+  width: 100%;
+}

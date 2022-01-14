@@ -1,0 +1,36 @@
+.Home-wrapp {
+  height: auto;
+  width: 95%;
+  max-width: 800px;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.Text-wrapp {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.Buttons-wrapp {
+  width: 90%;
+  margin: auto;
+}
+
+.button {
+  text-transform: capitalize !important;
+  border-radius: 0px !important;
+  margin-top: 5px !important;
+}
+
+@media screen and (min-width: 760px) {
+  #home-page-quote {
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  #home-page-quote {
+    font-size: 25px !important;
+  }
+}

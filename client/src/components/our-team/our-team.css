@@ -1,0 +1,16 @@
+.Team-wrapp {
+  height: auto;
+  width: 95%;
+  max-width: 800px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.main-divider {
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+}
+
+.main-divider * {
+  font-size: 20px !important;
+}

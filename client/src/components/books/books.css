@@ -1,0 +1,23 @@
+.Books-wrapp,
+.View-book,
+.Add-book,
+.Edit-book {
+  height: auto;
+  width: 95%;
+  max-width: 1020px;
+  margin: auto;
+  padding-top: 25px;
+  margin-bottom: 100px;
+}
+
+.link {
+  cursor: pointer;
+}
+
+#uploaded-image {
+  margin: auto;
+  width: 230px;
+  height: 180px;
+  border: 3px solid #3d4498;
+  border-radius: 5px;
+}

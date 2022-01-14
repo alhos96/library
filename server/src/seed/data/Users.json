@@ -1,0 +1,7 @@
+[
+  { "_id": 1, "name": "John Smith", "username": "john", "password": "$ch00l", "role": "admin" },
+  { "_id": 2, "name": "Ana Boyle", "username": "ana", "password": "$ch00l", "role": "admin" },
+  { "_id": 3, "name": "Antonio Banderas", "username": "tony", "password": "$ch00l", "role": "user" },
+  { "_id": 4, "name": "Julio Iglesias", "username": "julio", "password": "$ch00l", "role": "user" },
+  { "_id": 5, "name": "Placido Domingo", "username": "place", "password": "$ch00l", "role": "user" }
+]

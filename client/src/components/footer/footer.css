@@ -1,0 +1,15 @@
+.Footer {
+  text-align: center;
+  background-color: #20476e;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 0px;
+  padding: 5px 0;
+}
+.copyright {
+  margin-top: -5px !important;
+  font-size: 13px !important;
+  letter-spacing: 2px !important;
+}

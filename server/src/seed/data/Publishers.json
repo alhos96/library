@@ -1,0 +1,47 @@
+[
+  {
+    "_id": 1,
+    "name": "Fairview Press",
+    "road": "2450 Riverside Avenue South",
+    "zipcode": 55401,
+    "city": "Minneapolis",
+    "country": "USA",
+    "books": [1, 2, 3, 19, 18]
+  },
+  {
+    "_id": 2,
+    "name": "Harlequin Enterprises Ltd",
+    "road": "22 Adelaide Street West",
+    "zipcode": "M5H 4E3",
+    "city": "Toronto",
+    "country": "CAN",
+    "books": [4, 5, 6, 20, 17, 10]
+  },
+  {
+    "_id": 3,
+    "name": "Parragon",
+    "road": "B-38,Sector 5",
+    "zipcode": "BA2",
+    "city": "Bath",
+    "country": "ENG",
+    "books": [7, 8, 9, 21, 16, 11]
+  },
+  {
+    "_id": 4,
+    "name": "Barrie & Jenkins",
+    "road": "289 Westbourne Grove",
+    "zipcode": "W11 2QA",
+    "city": "London",
+    "country": "ENG",
+    "books": [29, 28, 27, 22, 15, 12]
+  },
+  {
+    "_id": 5,
+    "name": "Times Books",
+    "road": "115 West 18th Street",
+    "zipcode": 10021,
+    "city": "New York",
+    "country": "USA",
+    "books": [26, 25, 24, 23, 14, 13]
+  }
+]

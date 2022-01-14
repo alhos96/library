@@ -1,0 +1,25 @@
+.Logo-wrapp {
+  width: 95%;
+  margin: auto;
+  text-align: center;
+}
+
+.logo {
+  width: 70%;
+  max-width: 340px;
+  cursor: pointer;
+}
+
+.landing-page-logo {
+  margin-bottom: 100px;
+  max-width: 500px;
+}
+
+.navbar-logo {
+  text-align: left;
+}
+
+.navbar-logo > .logo {
+  width: 50%;
+  max-width: 200px;
+}

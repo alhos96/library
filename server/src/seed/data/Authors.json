@@ -1,0 +1,56 @@
+[
+  {
+    "_id": 1,
+    "name": "Chloe Hopper",
+    "image": "chloehopper.jpg",
+    "biography": "U contacts, contracts, the right not to diet, and the right to jump lines at dessert stations”. David has got a lot of baggage - literally and metaphorically (David King = King, David, King David, yes?). The son of Holocaust survivors, he is divorced from his wife Bonnie, and his daughter Tammy has decided that Israel is a “criminal regime”: “What I learned at NYU was just how psycho Jews are,” she tells him.",
+    "birthday": "9/6/1980",
+    "email": "joshuacohen@school.com",
+    "books": [2, 6, 8, 10]
+  },
+  {
+    "_id": 6,
+    "name": "Patrick Ness",
+    "image": "patrickness.jpg",
+    "biography": "The turbulent Saturday chronicled in Patrick Ness's passionate and disturbing novel is like a day spent by many 17-year-olds in semi-rural America: going for a run, working in a superstore, feeling nervous about meeting their ex at a party, grabbing opportunities for clandestine afternoon sex.But for Adam, nothing is simple. His home life as the son of an insecure and unsuccessful evangelist preacher colours all his experience. His parents would rather share their house with a herd of pink elephants than accept that he is gay and the family rule (“the Yoke”, as father Brian calls it) is built on denial and hypocrisy.As Adam inches closer to freeing himself from the Yoke by accepting himself as worthy of love, a parallel drama is unfolding. A local girl, Katie, was recently murdered, and her spirit is roaming the neighbourhood. Adam crosses Katie's path in the local forest, already notorious for meth factories and about to unleash its demons. He draws strength from their mutual desperation, just as he found his childhood best friend through a shared near-death experience.",
+    "birthday": "10/17/1971",
+    "email": "patrickness@school.com",
+    "books": [17, 7, 12, 26]
+  },
+  {
+    "_id": 7,
+    "name": "Rebecca Swift",
+    "image": "rebeccaswift.jpg",
+    "biography": "Rebecca Swift, who has died aged 53 of cancer, believed that anyone who writes and wishes to be edited and advised constructively and professionally should be given that opportunity. To this end, in 1996 she founded The Literary Consultancy (TLC) with Hannah Griffiths. It was the first of its kind - a manuscript assessment agency offering detailed editorial feedback to anyone writing in English anywhere in the world. Set up in Becky's north London flat on a capital sum of £600, TLC never borrowed another penny.From 1989 to 1995, Becky had been a junior editor at Virago Press. At that time, the “slush pile” - that mountain of unsolicited manuscripts - was one of the first casualties of the editorial department: publishers no longer had the resources to read unsolicited manuscripts, which were returned to the writer with a standard note.",
+    "birthday": "8/16/1975",
+    "email": "rebeccaswift@school.com",
+    "books": [1, 5, 23, 30, 9, 27]
+  },
+  {
+    "_id": 8,
+    "name": "Sarah Perry",
+    "image": "sarahperry.jpg",
+    "biography": "Born in Chelmsford, Essex, Sarah Perry grew up in a strict Baptist family immersed in classic literature, Victorian hymns and the King James Bible. She has a PhD in creative writing from Royal Holloway, London, where she was supervised by Andrew Motion; she has been the writer in residence at Gladstone's Library and the Unesco World City of Literature writer in residence in Prague. Her debut novel, After Me Comes the Flood, was published in 2014, followed in 2016 by The Essex Serpent. Inspired by the myth of a sea serpent on the Essex coast, the novel was named book of the year 2017 at the British Book awards and is out now in paperback.",
+    "birthday": "11/28/1979",
+    "email": "sarahperry@school.com",
+    "books": [3, 13, 14, 16, 21, 24]
+  },
+  {
+    "_id": 9,
+    "name": "Simon Mawer",
+    "image": "simonmawer.jpg",
+    "biography": "The name's Sutro. Marian Sutro. Alas, the temptation to write that is just too strong, even after a conversation with Simon Mawer about his new novel, Tightrope, and its lead character reveals a good-natured frustration with the fixations of the press.Reviews of Tightrope have been good. They have also evinced a fascination with the parts of Mawer's story that deal with spies and spying. One critic - rather close to home - went further, declaring that Mawer has created “the female James Bond”.“I'm glad you came back to that because I'd almost forgotten it,” Mawer says with a dry laugh, after a dinner given by his American publisher in Cambridge, Massachusetts. “I'm a fairly easygoing chap, I don't get excited about things. But there's no way that's a reasonable comment about Marian Sutro.”It may be an explicable comment. Mawer's novel does not only, thanks to its striking jacket, look like a spy thriller. It is a spy thriller - a literary one for sure, but still a thrilling read about a spy.",
+    "birthday": "12/26/1948",
+    "email": "simonmawer@school.com",
+    "books": [17, 18, 25, 29, 11, 28]
+  },
+  {
+    "_id": 10,
+    "name": "Tom Winton",
+    "image": "tomwinton.jpg",
+    "biography": "A friend recommended this as an antidote to my temporary inability to read anything over 100 pages. I'd never read Winton before and became an instant fan. The most startling piece is one in which he recounts catastrophic accidents that have marked his life. I'm the most appalling ghoul and tell myself that as a writer I'm not only entitled but almost obliged to peer at the wreckage of road accidents and so on. Winton offers a masterclass in turning appalling incidents into meditations on mortality, fatherhood and responsibility.",
+    "birthday": "8/4/1960",
+    "email": "tomwinton@school.com",
+    "books": [6, 20, 4, 15, 19, 22]
+  }
+]

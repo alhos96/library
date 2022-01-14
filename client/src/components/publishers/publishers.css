@@ -1,0 +1,13 @@
+.Publishers-wrapp,
+.View-publisher,
+.Add-publisher,
+.Edit-publisher {
+  height: auto;
+  width: 95%;
+  max-width: 1020px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+.Add-publisher {
+  padding: 10px;
+}
