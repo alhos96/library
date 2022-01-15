@@ -6,7 +6,8 @@ import Remove from "@mui/icons-material/Remove";
 import CameraAltOutlinedIcon from "@mui/icons-material/CameraAltOutlined";
 import { getSomething, methods } from "../../helpers";
 import { useNavigate } from "react-router-dom";
-import { Formik, Field, Form, FieldArray } from "formik";
+import { Formik, Field, Form, FieldArray, ErrorMessage } from "formik";
+import * as yup from "yup";
 
 function EditBook() {
   //helpers
@@ -68,6 +69,17 @@ function EditBook() {
                 authors: book.authors,
                 publishers: [book.book.publisher],
               }}
+              validateOnChange={false}
+              validateOnBlur={false}
+              validationSchema={yup.object({
+                img: yup.string().required("Image is required!"),
+                title: yup.string().required("title is required!"),
+                description: yup.string().required("description is required!"),
+                price: yup.string().required("You must add price!"),
+                pages: yup.string().required("You must add number of pages!"),
+                publishers: yup.array().length(1, "Book must have a publisher"),
+                authors: yup.array().length(1, "Book must have at least one author!"),
+              })}
               onSubmit={(values) => {
                 const newBook = new FormData();
 
@@ -117,15 +129,19 @@ function EditBook() {
 
                   <label htmlFor="title">Title:</label>
                   <Field name="title" type="text" className="text-input" />
+                  <ErrorMessage className="error" name="title" component="p" />
 
                   <label htmlFor="description">Description:</label>
                   <Field name="description" type="text" className="text-input" />
+                  <ErrorMessage className="error" name="description" component="p" />
 
                   <label htmlFor="price">Price:</label>
                   <Field name="price" type="text" className="text-input" />
+                  <ErrorMessage className="error" name="price" component="p" />
 
                   <label htmlFor="pages">Pages:</label>
                   <Field name="pages" type="number" className="text-input" />
+                  <ErrorMessage className="error" name="pages" component="p" />
 
                   <label htmlFor="books">Authors:</label>
                   <FieldArray
@@ -168,9 +184,9 @@ function EditBook() {
                     type="select"
                     className="text-input"
                   />
+                  <ErrorMessage className="error" name="authors" component="p" />
 
                   <label htmlFor="books">Publisher:</label>
-
                   <FieldArray
                     name="publishers"
                     render={(arrayHelpers) => (
@@ -212,6 +228,7 @@ function EditBook() {
                     type="select"
                     className="text-input"
                   />
+                  <ErrorMessage className="error" name="publishers" component="p" />
 
                   <Typography>{message}</Typography>
                   <Button
