@@ -32,7 +32,7 @@ exports.findAuthor = async (req, res, next) => {
 
   let author = await Author.find({ nameForSearch: search.toLowerCase() });
 
-  if (author && author.isDeleted === false) {
+  if (author && author.isDeleted !== false) {
     res.status(200).json({ data: author });
   } else {
     const error = new Error("No authors in database...");

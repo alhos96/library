@@ -31,7 +31,7 @@ exports.findBook = async (req, res, next) => {
 
   let book = await Book.find({ titleForSearch: search.toLowerCase() });
 
-  if (book && book.isDeleted === false) {
+  if (book && book.isDeleted !== false) {
     res.status(200).json({ data: book });
   } else {
     const error = new Error("No books found..");

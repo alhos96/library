@@ -56,7 +56,7 @@ exports.findPublisher = async (req, res, next) => {
 
   let publisher = await Publisher.find({ nameForSearch: search.toLowerCase() });
 
-  if (publisher && publisher.isDeleted === false) {
+  if (publisher && publisher.isDeleted !== false) {
     res.status(200).json({ data: publisher });
   } else {
     const error = new Error("No publishers found");
