@@ -53,13 +53,20 @@ function Authors() {
               search: yup.string().matches(/^[aA-zZ\s]+$/, "Only letters are allowed for this field "),
             })}
           >
-            <Form className="search-form-container">
-              <Field placeholder="Search" name="search" type="text" className="text-input" required></Field>
-              <ErrorMessage className="error" name="search" component="p" />
-              <IconButton type="submit" className="field-adornment-icon">
-                <Search />
-              </IconButton>
-            </Form>
+            {(data) => {
+              if (data.values.search === "") {
+                getSomething(get, url, {}, token, setAuthors);
+              }
+              return (
+                <Form className="search-form-container">
+                  <Field id="search" placeholder="Search" name="search" type="search" className="text-input" required></Field>
+                  <ErrorMessage className="error" name="search" component="p" />
+                  <IconButton type="submit" className="field-adornment-icon">
+                    <Search />
+                  </IconButton>
+                </Form>
+              );
+            }}
           </Formik>
         </Box>
 
