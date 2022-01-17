@@ -27,6 +27,10 @@ function Books() {
   //side effects
   useEffect(() => {
     getSomething(get, url, {}, token, setBooks);
+
+    return () => {
+      setBooks([]);
+    };
   }, []);
 
   return (

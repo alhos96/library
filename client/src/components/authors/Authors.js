@@ -29,6 +29,9 @@ function Authors() {
   useEffect(() => {
     setFade(true);
     getSomething(get, url, {}, token, setAuthors);
+    return () => {
+      setAuthors([]);
+    };
   }, []);
 
   return (

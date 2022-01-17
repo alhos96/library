@@ -26,6 +26,9 @@ function Publishers() {
 
   useEffect(() => {
     getSomething(get, url, {}, token, setPublishers);
+    return () => {
+      setPublishers([]);
+    };
   }, []);
 
   return (
