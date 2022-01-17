@@ -49,11 +49,11 @@ function EditPublisher() {
 
             <Formik
               initialValues={{
-                name: publisher.name,
-                road: publisher.road,
-                zipcode: publisher.zipcode,
-                city: publisher.city,
-                country: publisher.country,
+                name: publisher.publisher.name,
+                road: publisher.publisher.road,
+                zipcode: publisher.publisher.zipcode,
+                city: publisher.publisher.city,
+                country: publisher.publisher.country,
               }}
               validateOnChange={false}
               validateOnBlur={false}
